@@ -1,0 +1,83 @@
+
+.header{
+    width: 100%;
+    padding: 0 72px;
+    height: 70px;
+    background-color: #000;
+    color: rgba(255,255,255,.96);
+    // border: 1px solid red;
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .nav__logo{
+            flex: 0 1 auto;
+            color: inherit;
+            height: auto;
+            width: 4.74em;
+            margin-right: 2.5em;
+            background-color: transparent;
+            z-index: 1;
+        }
+        
+        .nav__list{
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            height: 100%;
+            .list__item{
+                margin: 0;
+                padding: 0 0.72em;
+                position: relative;
+                display: flex;
+                -ms-flex-align: center;
+                align-items: center;
+                font-family: "OKKO Sans Medium",sans-serif;
+                a{
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    transition: color .1s;
+                    text-decoration: none;
+                    color: rgba(255,255,255,.56);
+
+                    &:hover{
+                        color: rgba(255,255,255,.96);
+                    }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 2px;
+                   // -webkit-transition: opacity.3s;
+                    // -o-transition: opacity.3s;
+                    transition: opacity .3s;  
+                    // background: -webkit-gradient(linear,right top,left top,color-stop(.17%,transparent),color-stop(15.74%,#5d0ef5),color-stop(50%,#fff),color-stop(83.22%,#5d0ef5),to(transparent));
+                    // background: -o-linear-gradient(right,transparent .17%,#5d0ef5 15.74%,#fff 50%,#5d0ef5 83.22%,transparent 100%);
+                    background: linear-gradient(270deg,transparent .17%,#5d0ef5 15.74%,#fff 50%,#5d0ef5 83.22%,transparent 100%);
+                    opacity: 0;
+                }
+                &.active{
+                    a{
+                        color: rgba(255,255,255,.96);
+                    }
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

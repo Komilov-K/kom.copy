@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Kom</title>
+</head>
+<body>
+    <div class="wrap-header">
+        <header class="header">
+            <nav class="nav">
+                <a href="/" class="nav__logo"><img src="https://static.okko.tv/notifications/tv/1682682482088/1682682502609_512x204.png" alt=""></a>
+                <ul class="nav__list">
+                    <li class="list__item active"><a href="/">Главная</a></li>
+                    <li class="list__item"><a href="/">Каталог</a></li>
+                    <li class="list__item"><a href="/">Магазин</a></li>
+                    <li class="list__item"><a href="/">Спорт</a></li>
+                </ul>
+                <div class="nav__widjets">
+                    <div class="nav_search"></div>
+                    <div class="nav_sign"></div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- <section>
+        <a class="janr" href="#">
+            <div class="janr__wrap__title">
+                <h2 class="janr__title">Жанры</h2>
+                <i></i>
+            </div>
+        </a>
+        
+    
+        <div class="gallery">
+            <div class="gallery__wrap">
+                <a class="link__janr" href="#">
+                 <article class="card">
+                     <img src="https://static.okko.tv/images/v3/20461644,15820015,20174403?title=%D0%9A%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                 </article>
+                </a>
+                 
+                 <a class="link__janr" href="#">
+                     <article class="card">
+                         <img src="https://static.okko.tv/images/v3/21399183,18144651,14403076?title=%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                         
+                     </article>
+                 </a>
+                 <a class="link__janr" href="#">
+                     <article class="card">
+                         <img src="https://static.okko.tv/images/v3/21397048,21361471,16791321?title=%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                 </article>
+                 </a>
+                 
+                 <a class="link__janr" href="#">
+                     <article class="card">
+                         <img src="https://static.okko.tv/images/v3/17767832,14414287,7189733?title=%D0%A2%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D1%8B&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                 </article>
+                 </a>
+                 
+                 <a class="link__janr" href="#">
+                     <article class="card">
+                         <img src="https://static.okko.tv/images/v3/14733650,20655396,15900650?title=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                 </article>
+                 </a>
+                 <a class="link__janr" href="#">
+                     <article class="card">
+                         <img src="https://static.okko.tv/images/v3/16743277,7196256,6798158?title=%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                    </article>
+                 </a>
+            </div>
+            
+            <div class="back"><button></button></div>
+            <div class="next"><button></button></div>
+        </div>
+    </section> -->
+    <section>
+
+        <div class="row janr">
+            <div class="header__janr">
+              <h3 class="title">Жанры</h3>
+              <div  class="progress-bar "></div>
+            </div>
+            <div class="container">
+              <button class="handle left-handle">
+                <div class="text">&#8249;</div>
+              </button>
+              <div class="slider">
+                <a class="slider__link item" href="">
+                    
+                    <img src="https://static.okko.tv/images/v3/20461644,15820015,20174403?title=%D0%9A%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item"  href="">
+    
+                    <img src="https://static.okko.tv/images/v3/21399183,18144651,14403076?title=%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+    
+                    <img src="https://static.okko.tv/images/v3/21397048,21361471,16791321?title=%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+    
+                    <img src="https://static.okko.tv/images/v3/17767832,14414287,7189733?title=%D0%A2%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D1%8B&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a href="slider__link item">
+                    <img src="https://static.okko.tv/images/v3/17767832,14414287,7189733?title=%D0%A2%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D1%8B&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+                    <img src="https://static.okko.tv/images/v3/17319791,19758885,9058529?title=%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%D0%B8&presetId=6001&width=319&scale=1&quality=70&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+    
+                    <img src="https://static.okko.tv/images/v3/17319791,19758885,9058529?title=%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%D0%B8&presetId=6001&width=319&scale=1&quality=70&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+    
+                    <img src="https://static.okko.tv/images/v3/17767832,14414287,7189733?title=%D0%A2%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D1%8B&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+    
+                    <img src="https://static.okko.tv/images/v3/16743277,7196256,6798158?title=%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item" href="">
+                    <img src="https://static.okko.tv/images/v3/20461644,15820015,20174403?title=%D0%9A%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+                <a class="slider__link item"  href="">
+                    <img src="https://static.okko.tv/images/v3/21399183,18144651,14403076?title=%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%D0%B8&presetId=6001&width=319&scale=1&quality=80&mediaType=webp" alt="">
+                </a>
+              </div>
+              <button class="handle right-handle">
+                <div class="text">&#8250;</div>
+              </button>
+            </div>
+          </div>
+    </section>
+
+    <section>
+        <div class="row janr">
+            <div class="header__janr">
+              <h3 class="title">Новое в подписке</h3>
+              <div style="display: none;" class="progress-bar "></div>
+            </div>
+            <div class="container">
+              <button class="handle left-handle">
+                <div class="text">&#8249;</div>
+              </button>
+              <div class="slider">
+                <a class="slider__link new_sub"  href="#">
+                    <div class="video-card">
+                        <div class="thumbnail-container">
+                            <img class="thumbnail"  src="https://static.okko.tv/images/v3/21388173?width=637&scale=2&quality=70&mediaType=webp"  alt="Thumbnail">
+                        </div>
+                        <video class="video" loop muted>
+                          <source  src="https://cdp10.cdnvideo.okko.tv/data/cid/cdnvideo-1697378987-McfY77mm8SfVeIXFW0TKTA/storage35/trl/5badbdba-fd5c-4a22-89f1-12d861bda9bd.webm" type="video/mp4">
+                        </video>
+                        <button class="volume-toggle" title="Toggle Sound">
+                          <i class="fa-solid fa-volume-xmark"></i>
+                          <!-- <i class="fas fa-volume-up"></i> -->
+                          <!-- <i class="fa-solid fa-volume-high"></i> -->
+                        </button>
+                    </div>
+                </a>
+                <a class="slider__link new_sub"  href="#">
+                    <div class="video-card">
+                        <div class="thumbnail-container">
+                            <img class="thumbnail"  src="https://static.okko.tv/images/v3/21388173?width=637&scale=2&quality=70&mediaType=webp"  alt="Thumbnail">
+                        </div>
+                        <video class="video" loop muted>
+                          <source  src="https://cdp10.cdnvideo.okko.tv/data/cid/cdnvideo-1697378987-McfY77mm8SfVeIXFW0TKTA/storage35/trl/5badbdba-fd5c-4a22-89f1-12d861bda9bd.webm" type="video/mp4">
+                        </video>
+                        <button class="volume-toggle" title="Toggle Sound">
+                          <i class="fa-solid fa-volume-xmark"></i>
+                          <!-- <i class="fas fa-volume-up"></i> -->
+                          <!-- <i class="fa-solid fa-volume-high"></i> -->
+                        </button>
+                    </div>
+                </a>
+                <a class="slider__link new_sub"  href="#">
+                    <div class="video-card">
+                        <div class="thumbnail-container">
+                            <img class="thumbnail"  src="https://static.okko.tv/images/v3/21388173?width=637&scale=2&quality=70&mediaType=webp"  alt="Thumbnail">
+                        </div>
+                        <video class="video" loop muted>
+                          <source  src="https://cdp10.cdnvideo.okko.tv/data/cid/cdnvideo-1697378987-McfY77mm8SfVeIXFW0TKTA/storage35/trl/5badbdba-fd5c-4a22-89f1-12d861bda9bd.webm" type="video/mp4">
+                        </video>
+                        <button class="volume-toggle" title="Toggle Sound">
+                          <i class="fa-solid fa-volume-xmark"></i>
+                          <!-- <i class="fas fa-volume-up"></i> -->
+                          <!-- <i class="fa-solid fa-volume-high"></i> -->
+                        </button>
+                    </div>
+                </a>
+
+
+
+              </div>
+              <button class="handle right-handle">
+                <div class="text">&#8250;</div>
+              </button>
+            </div>
+          </div>
+    </section>
+
+
+    <footer>
+        <div class="footer__padding">
+            <div class="footer__social__info">
+                <div class="footer__social">
+                    <div class="footer__img">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="32px" height="32px" fill-rule="nonzero" fill="#ffffff">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.12,5.12)">
+                                        <path
+                                            d="M44.89844,14.5c-0.39844,-2.19922 -2.29687,-3.80078 -4.5,-4.30078c-3.29687,-0.69922 -9.39844,-1.19922 -16,-1.19922c-6.59766,0 -12.79687,0.5 -16.09766,1.19922c-2.19922,0.5 -4.10156,2 -4.5,4.30078c-0.40234,2.5 -0.80078,6 -0.80078,10.5c0,4.5 0.39844,8 0.89844,10.5c0.40234,2.19922 2.30078,3.80078 4.5,4.30078c3.5,0.69922 9.5,1.19922 16.10156,1.19922c6.60156,0 12.60156,-0.5 16.10156,-1.19922c2.19922,-0.5 4.09766,-2 4.5,-4.30078c0.39844,-2.5 0.89844,-6.10156 1,-10.5c-0.20312,-4.5 -0.70312,-8 -1.20312,-10.5zM19,32v-14l12.19922,7z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <!-- <img style="background-color: white;" src="./img/telegram (1).png" alt=""></a> -->
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="32px"
+                                height="32px" fill-rule="nonzero" fill="#ffffff">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.33333,5.33333)">
+                                        <path
+                                            d="M5.83,23.616c12.568,-5.529 28.832,-12.27 31.077,-13.203c5.889,-2.442 7.696,-1.974 6.795,3.434c-0.647,3.887 -2.514,16.756 -4.002,24.766c-0.883,4.75 -2.864,5.313 -5.979,3.258c-1.498,-0.989 -9.059,-5.989 -10.7,-7.163c-1.498,-1.07 -3.564,-2.357 -0.973,-4.892c0.922,-0.903 6.966,-6.674 11.675,-11.166c0.617,-0.59 -0.158,-1.559 -0.87,-1.086c-6.347,4.209 -15.147,10.051 -16.267,10.812c-1.692,1.149 -3.317,1.676 -6.234,0.838c-2.204,-0.633 -4.357,-1.388 -5.195,-1.676c-3.227,-1.108 -2.461,-2.543 0.673,-3.922z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px"
+                                height="30px" fill-rule="nonzero" fill="#ffffff">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(8.53333,8.53333)">
+                                        <path
+                                            d="M9.99805,3c-3.859,0 -6.99805,3.14195 -6.99805,7.00195v10c0,3.859 3.14195,6.99805 7.00195,6.99805h10c3.859,0 6.99805,-3.14195 6.99805,-7.00195v-10c0,-3.859 -3.14195,-6.99805 -7.00195,-6.99805zM22,7c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM15,9c3.309,0 6,2.691 6,6c0,3.309 -2.691,6 -6,6c-3.309,0 -6,-2.691 -6,-6c0,-3.309 2.691,-6 6,-6zM15,11c-2.20914,0 -4,1.79086 -4,4c0,2.20914 1.79086,4 4,4c2.20914,0 4,-1.79086 4,-4c0,-2.20914 -1.79086,-4 -4,-4z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__btn">
+                        <button>Нужна помощь?</button>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <div class="kom__info">
+                        <h3>Kom</h3>
+                        <a href=""><p>О нас</p></a>
+                        <a href=""><p>Блог</p></a>
+                        <a href=""><p>Карьера в Kom</p></a>
+                    </div>
+                    <div class="kom__info">
+                        <h3>Помощь</h3>
+                        <a href=""><p>Вопросы и ответы</p></a>
+                        <a href=""><p>Список устройств</p></a>
+                        <a href=""><p>Карьера в Kom</p></a>
+                    </div>
+                    <div class="kom__info">
+                        <h3>Другое</h3>
+                        <a href=""><p>Акции и предложения</p></a>
+                        <a href=""><p>Сертификаты</p></a>
+                        <a href=""><p>Карьера в Kom</p></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="copyright__kom">
+                <div>Copyright © 2023 Komilov Co., Ltd. All Rights Reserved.
+                    Designed by Komilovs <br> Distributed By Koly and Islambek
+        </div>
+    </footer>
+
+<!-- <div style="height: 500px;">
+
+</div> -->
+    
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/cardVideo.js"></script>
+</body>
+</html>

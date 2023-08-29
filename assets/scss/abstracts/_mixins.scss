@@ -1,0 +1,75 @@
+@mixin line {
+    @content;
+    width: 50px;
+    height: 4px;
+}
+
+// Миксин для медиа-запросов
+@mixin media-min($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+@mixin media-max($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+// Flex mixins
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-inline {
+    display: flex;
+    align-items: center;
+}
+
+// Bakcground mixin
+
+@mixin back-img {
+    @content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+// Media querys
+
+
+@mixin min-960-1320{
+    @media (min-width: 960px) { @content; } 
+    @media (min-width: 1320px) { @content; } 
+}
+
+@mixin min-tablet-center-phone{
+    @media (min-width: 635px) { @content; }
+}
+
+
+@mixin max-tablet-center-phone{
+    @media (max-width: 635px) { @content; }
+}
+
+@mixin max-tablet-mini-phone{
+    @media (max-width: 550px) { @content; }
+}
+
+@mixin max-tablet{
+    @media (max-width: 770px) { @content; }
+}
+
+@mixin max-phone{
+    @media (max-width: 400px) { @content; }
+}

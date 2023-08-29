@@ -1,0 +1,88 @@
+footer{
+    margin-top: 40px;
+    padding:  0 60px;
+}
+
+
+
+.footer__padding {
+    padding: 40px 0 30px 0;
+    border-top: 1px solid rgba(91, 88, 91, 0.412);
+}
+
+.footer__social__info {
+    display: flex;
+    justify-content: space-between;
+
+    @include media-max(1320px) {
+        flex-direction: column; 
+        gap: 40px;       
+    }
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    @include media-max(1320px) {
+        flex: 1 1 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+
+.footer__img {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__btn > button{
+    padding: 10px 25px;
+    background-color:  rgba(39, 43, 117, 0.918);
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer__info {
+    display: flex;
+    gap: 150px;
+    padding-right: 50px;
+
+    @include media-max(1320px) {
+        justify-content: space-between;
+        padding-right: 130px;
+    }
+}
+
+.kom__info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.kom__info > h3{
+    color: rgba(255,255,255,.96);
+    font-size: 20px;
+    font-family: "OKKO Sans DemiBold",sans-serif;
+}
+.kom__info > a {
+    font-size: 16px;
+    color: rgba(255,255,255,.56);
+    font-family: "OKKO Sans Medium",sans-serif;
+}
+
+.copyright__kom {
+    display: grid;
+    place-items: center;
+    padding: 70px 0 0px  0;
+}
+
+.copyright__kom > div {
+    text-align: center;
+    line-height: 27px;
+    text-shadow: 0 0 4px #b6c7d4bc; 
+}
+
