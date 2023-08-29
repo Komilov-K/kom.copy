@@ -210,6 +210,10 @@ body {
   gap: 16px;
 }
 
+.janr {
+  overflow: hidden;
+}
+
 .link__janr {
   text-decoration: none;
 }
