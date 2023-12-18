@@ -48,11 +48,10 @@
   .slider > .slider__link:hover {
     transform: scale(1.05);
     border: none;
-    
-    
-
 }
   
+
+
   .handle {
     border: none;
     border-radius: 1rem;
@@ -170,7 +169,7 @@
         left: 0;
         top: 65%;
         width: 1%;
-        padding-left: 14px;
+        padding-left: 14px; 
     } */
     
   }
@@ -180,6 +179,7 @@
 
   .slider > .new_sub:hover {
     transform: scale(1.12);
+    z-index: 2;
   }
   .video__new {
     /* display: none; */
@@ -206,8 +206,9 @@
     /* height: 500px; */
     height: auto;
     overflow: hidden;
-    transition: all .4s linear;
+    transition: all .5s linear;
     border-radius: 1rem;
+    /* z-index: -1; */
   }
   
   .thumbnail-container {
@@ -298,10 +299,13 @@
   
   .video-card:hover .thumbnail-container {
     opacity: 0;
+ 
   }
 
   .video-card:hover{
     transform: scale(1.05);
+    /* z-index: 2; */
+    
   }
 
   .video-card:hover .video,
@@ -309,4 +313,5 @@
     /* transition: all 700ms ease; */
     transition: all .4s ease;   
     opacity: 1;
+
   }
